@@ -1,6 +1,8 @@
 Docker OpenWRT buildroot
 ========================
 
+Derived from [noonien](https://github.com/noonien/docker-openwrt-buildroot)
+
 This is a docker container for the [OpenWRT](https://openwrt.org/)
 [buildroot](http://wiki.openwrt.org/doc/howto/buildroot.exigence).
 
@@ -10,7 +12,7 @@ the user `openwrt` was created. The buildroot can be found in
 
 To run a shell in the buildroot, execute the following command:
 ```sh
-docker run -t -i noonien/openwrt-buildroot:12.09 sudo -iu openwrt bash
+docker run -t -i vmlinz/openwrt-buildroot:12.09 sudo -iu openwrt bash
 ```
 
 More information on how to use this buildroot can be found on the
